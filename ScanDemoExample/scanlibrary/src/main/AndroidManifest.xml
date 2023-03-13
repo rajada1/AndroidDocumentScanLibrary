@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="easyexpenses.com.scanlibrary" xmlns:tools="http://schemas.android.com/tools" >
+    package="com.scanlibrary">
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -22,8 +22,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="easyexpenses.com.scanlibrary.provider"
-            tools:replace="android:authorities"
+            android:authorities="com.scanlibrary.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

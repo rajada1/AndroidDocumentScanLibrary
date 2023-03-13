@@ -12,6 +12,7 @@ android {
     }
 
     defaultConfig {
+        applicationId "com.scan-library"
         minSdkVersion 19
         targetSdkVersion 33
         versionCode 1
